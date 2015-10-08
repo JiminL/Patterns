@@ -9,11 +9,11 @@ public class Countdown {
     	for(int j=n; j>0; j--){
     		
     		for(int i=j; i>0; i-=1){
-    			System.out.print(i);
     			
-    			
+    			sting = sting + i;
         }
-    	System.out.println("");
+    	
+    		sting += "\n";
     
     }
         return sting;
